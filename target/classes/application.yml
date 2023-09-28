@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: usuario-service
+  profiles:
+    active: oracle
+server:
+  port: '8762'

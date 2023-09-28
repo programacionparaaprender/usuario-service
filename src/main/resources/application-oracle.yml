@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      dialect: org.hibernate.dialect.Oracle12cDialect
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driver:
+      class: oracle.jdbc.driver.OracleDriver
+    password: 123
+    username: SYSTEM
+    url: jdbc:oracle:thin:@localhost:1521:xe
+
